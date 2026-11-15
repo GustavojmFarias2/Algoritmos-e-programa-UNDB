@@ -28,7 +28,7 @@
 | **Unidade curricular** | Algoritmos e Programação — UnDB 2026.2 |
 | **Professor** | Rondineli Seba Salomão |
 | **App-base do meu CRUD** | _HEVY - Gerenciamento de academia_ |
-| **Link do meu repositório** | _https://github.com/…_ |
+| **Link do meu repositório** | _[https://github.com/…](https://github.com/GustavojmFarias2/Algoritmos-e-programa-UNDB.git)_ |
 | **Dupla de revisão (Campo 05)** | _nome do colega cujo CRUD vou revisar / que revisa o meu_ |
 | **Função neste ciclo** | _Autor do meu CRUD · Revisor do CRUD de um colega_ |
 
