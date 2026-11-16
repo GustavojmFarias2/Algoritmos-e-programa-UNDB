@@ -29,7 +29,7 @@
 | **Professor** | Rondineli Seba Salomão |
 | **App-base do meu CRUD** | _HEVY - Gerenciamento de academia_ |
 | **Link do meu repositório** | _[https://github.com/…](https://github.com/GustavojmFarias2/Algoritmos-e-programa-UNDB.git)_ |
-| **Dupla de revisão (Campo 05)** | _nome do colega cujo CRUD vou revisar / que revisa o meu_ |
+| **Dupla de revisão (Campo 05)** | _Filipe Gabriel_ |
 | **Função neste ciclo** | _Autor do meu CRUD · Revisor do CRUD de um colega_ |
 
 ---
@@ -106,10 +106,10 @@ Atualize a cada commit (troque ⬜ por ✅).
 
 | Grupo | Item | Prazo | Preenchido | Commit |
 |:--:|---|---|:--:|:--:|
-| 1 | Identificação | 16/11 | ⬜ | ⬜ |
+| 1 | Identificação | 16/11 | ✅ | ✅ |
 | 1 | Registros dos Ciclos 01, 02, 03 e 04 | 16/11 | ⬜ | ⬜ |
-| 1 | Campo 01 — Instrumento de entrada | 16/11 | ⬜ | ⬜ |
-| 1 | Campo 02 — Aprofundamento | 16/11 | ⬜ | ⬜ |
+| 1 | Campo 01 — Instrumento de entrada | 16/11 | ✅ | ✅ |
+| 1 | Campo 02 — Aprofundamento | 16/11 | ✅ | ✅ |
 | 2 | Registros dos Ciclos 05, 06, 07 e 08 | 21/11 | ⬜ | ⬜ |
 | 2 | Checkpoint Conceitual | 21/11 | ⬜ | ⬜ |
 | 2 | Campo 03 — Execução e desvios | 21/11 | ⬜ | ⬜ |
@@ -213,19 +213,18 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 *Grupo 1 | Prazo segunda 16/11, 23h59 | SEM CONSULTA*
 
 **1a. Objetos de conhecimento identificados (mínimo 3, com vocabulário técnico):**
-1. _…_
-2. _…_
-3. _…_
-4. _…_ *(opcional)*
+1. _As estruturas condicionais como o "if, elif e else" para controlar as opcões do GRUD da melhor forma._
+2. _Também as estruturas de repetição utilizada no GRUD, como "while" para manter o menu funcionando até o usuário querer sair, sendo crucial pro funcionamento do meu GRUD de academia, que utilizo MENU._
+3. _Os tipos de dados e variáveis, como os números inteiros, decimais, armazenamento de texto e valores booleanos, essencial para o meu GRUD de academia que requer esses números._
 
 **1b. Lacunas — o que não sei e preciso descobrir (mínimo 3, com precisão técnica):**
-1. _…_
-2. _…_
-3. _…_
+1. _Quero saber, como armazenar e gerenciar vários exercícios, em vez de apenas um._
+2. _Como localizar corretamente um exercício para atualizar ou excluir seus dados._
+3. _Como organizar o código da melhor forma pra poder evitar repetições de comandos._
 
 **1c. Hipótese inicial em até 5 linhas — com lógica da área de formação:**
 
-> _…_
+> _O meu CRUD tem como foco, ajudar a gerenciar os exercícios do usuário, facilitanto na hora de treinar, contendo no GRUD dados como: Cadastrar, Listar, Atualizar, Excluir e Sair. Foi utilizado vários recursos até o momento, como Variáveis, tipos de dados, estruturas condicionais e de repetição, operadores relacionais entre outros recursos aprendidos em sala, meu objetivo no GRUD é criar um sistema que permita cadastrar exercícios, consultar as informações também, e aplicar os conhecimentos de lógica de programação e Python na construção de uma solução prática._
 
 ### 🧩 CAMPO 02 — Aprofundamento pós-aula
 *AV Qualis — Grupo 1 | Segunda 16/11, 23h59*
@@ -234,20 +233,20 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 
 **2a. Aprofundamento dos objetos de conhecimento (mínimo 2 referências com síntese da contribuição para a solução):**
 
-- **Referência 1:** _…_ — **Contribuição:** _…_
-- **Referência 2:** _…_ — **Contribuição:** _…_
+- **Referência 1:** _https://youtu.be/K10u3XIf1-Q?is=ClqBLAJYNEjPBtFC_ — **Contribuição:** _Assisti alguns videos no Youtube sobre estruturas condicionais, laços de repetição etc... isso me ajudou a vizualizar melhor a aplicação dos conceitos na prática, principalmente na utilização das estruturas como "while, if, elif e else", que são importantes pra controlar o menu e as operações do HEVY._
+- **Referência 2:** _Explicações do professor e anotações realizadas em sala de aula_ — **Contribuição:** _As aulas ajudaram a compreender a lógica de programação, a utilização de variáveis, os tipos de dados, os operadores e as estruturas condicionais. Esses conhecimentos me ajudaram a entender como organizar o meu CRUD._
 
 **2b. Hipótese revisada — o que mudou em relação ao Campo 01 e por quê:**
 
-> _…_
+> _Depois das pesquisas e dos conteúdos trabalhados em sala de aula, consegui compreender melhor os problemas em que um sistema CRUD pode ocorrer, como falhas na entrada de dados, na lógica de programação e na manipulação das informações. Minha visão inicial ficou mais clara, depois que vi videos e percebi a importância de utilizar corretamente as variáveis, tipos de dados e as estruturas condicionais pra poder evitar erros no sistema do meu CRUD. Em relação ao meu HEVY, entendi que é necessário garantir que as informações dos exercícios sejam armazenadas e manipuladas corretamente._
 
 **2c. Dimensionamento inicial de recursos (recurso, quantidade estimada, justificativa técnica — mínimo 3 itens):**
 
 | RECURSO / MATERIAL / INSUMO | QUANTIDADE ESTIMADA | JUSTIFICATIVA TÉCNICA |
 |---|---|---|
-| _…_ | _…_ | _…_ |
-| _…_ | _…_ | _…_ |
-| _…_ | _…_ | _…_ |
+| _Tempo de estudo de Python_ | _3 horas_ | _Revisar variáveis, tipos de dados, estruturas condicionais e laços de repetição para melhorar a lógica do CRUD HEVY._ |
+| _Casos de teste do sistema_ | _10 testes_ | _Verificar o funcionamento das operações de cadastro, listagem, atualização e exclusão, identificando possíveis falhas._ |
+| _Registros de exercícios para teste_ | _5 registros_ | _Utilizar diferentes exercícios e informações para verificar se o sistema consegue armazenar, consultar e manipular os dados corretamente._ |
 | _…_ | _…_ | _…_ |
 
 #### Registro do Ciclo 02 — 19/08
