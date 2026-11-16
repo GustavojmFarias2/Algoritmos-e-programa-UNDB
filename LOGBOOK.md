@@ -107,7 +107,7 @@ Atualize a cada commit (troque ⬜ por ✅).
 | Grupo | Item | Prazo | Preenchido | Commit |
 |:--:|---|---|:--:|:--:|
 | 1 | Identificação | 16/11 | ✅ | ✅ |
-| 1 | Registros dos Ciclos 01, 02, 03 e 04 | 16/11 | ⬜ | ⬜ |
+| 1 | Registros dos Ciclos 01, 02, 03 e 04 | 16/11 | ✅ | ✅ |
 | 1 | Campo 01 — Instrumento de entrada | 16/11 | ✅ | ✅ |
 | 1 | Campo 02 — Aprofundamento | 16/11 | ✅ | ✅ |
 | 2 | Registros dos Ciclos 05, 06, 07 e 08 | 21/11 | ⬜ | ⬜ |
@@ -163,11 +163,12 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 > **Sugestão de ordem:** (1) Identificação → (2) **Campo 01 primeiro, sem consulta** → (3) Registros dos Ciclos 01 a 04 → (4) Campo 02, com pesquisa.
 
 **Checklist do Grupo 1**
-- [ ] Identificação preenchida (app-base, link do repositório, dupla de revisão)
-- [ ] Campo 01: 3 objetos de conhecimento, 3 lacunas, hipótese de até 5 linhas
-- [ ] Registros dos Ciclos 01, 02, 03 e 04 com os 7 itens
-- [ ] Campo 02: 2 referências com contribuição, hipótese revisada, 3 recursos
-- [ ] Commits no GitHub e painel atualizado
+| ❌ Fraco | ✅ Forte |
+- [✅] Identificação preenchida (app-base, link do repositório, dupla de revisão)
+- [✅] Campo 01: 3 objetos de conhecimento, 3 lacunas, hipótese de até 5 linhas
+- [✅] Registros dos Ciclos 01, 02, 03 e 04 com os 7 itens
+- [✅] Campo 02: 2 referências com contribuição, hipótese revisada, 3 recursos
+- [✅] Commits no GitHub e painel atualizado
 
 ## 🟢 CICLO 01 — 12/08 — Preparação do laboratório e escolha do projeto
 
@@ -182,13 +183,13 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 </details>
 
 #### Registro do Ciclo 01 — 12/08
-1. **Desafio do ciclo (em 1 frase):** _…_
-2. **O que implementei (commits / arquivos / links):** _…_
-3. **Objeto(s) de conhecimento mobilizado(s):** _…_
-4. **Desvio ou erro encontrado + causa técnica:** _…_
-5. **Decisão de ajuste + fonte:** _…_
-6. **Feedback recebido e o que mudei:** _…_
-7. **Próximo passo:** _…_
+1. **Desafio do ciclo (em 1 frase):** _Preparar e definir um projeto que pudesse ser desenvolvido utilizando comhecimentos de lógica de programação._
+2. **O que implementei (commits / arquivos / links):** _Iniciei a organização do projeto HEVY, voltado ao gerenciamento de exercícios físicos. Também trabalhei na organização de desenvolvimento e na preparação do repositório para armazenar os arquivos do projeto._
+3. **Objeto(s) de conhecimento mobilizado(s):** _Lógica de programação e gerenciamento de repositórios no GitHub._
+4. **Desvio ou erro encontrado + causa técnica:** _Uma das dificuldades foi compreender melhor a utilização do GitHub, e a organização dos arquivos de projeto, principalmente por ainda estar me adaptando com a plataforma._
+5. **Decisão de ajuste + fonte:** _Busquei entender melhor o funcionamento do GitHub e organizar os arquivos de maneira mais adequada, utilizando as orientações apresentadas durante as aulas._
+6. **Feedback recebido e o que mudei:** _As orientações das aulas ajudaram a compreender a importância de organizar o projeto desde o início e manter um registro do desenvolvimento._
+7. **Próximo passo:** _Continuar o desenvolvimento do HEVY, utilizando Python e aplicando os conceitos de lógica de programação nas funcionalidades do sistema._
 
 ## 🟢 CICLO 02 — 19/08 — Variáveis, tipos de dados e entrada/saída
 
@@ -250,13 +251,13 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 | _…_ | _…_ | _…_ |
 
 #### Registro do Ciclo 02 — 19/08
-1. **Desafio do ciclo (em 1 frase):** _…_
-2. **O que implementei (commits / arquivos / links):** _…_
-3. **Objeto(s) de conhecimento mobilizado(s):** _…_
-4. **Desvio ou erro encontrado + causa técnica:** _…_
-5. **Decisão de ajuste + fonte:** _…_
-6. **Feedback recebido e o que mudei:** _…_
-7. **Próximo passo:** _…_
+1. **Desafio do ciclo (em 1 frase):** _Compreender como armazenar, receber e apresentar informações utilizando variáveis e diferentes tipos de dados em Python._
+2. **O que implementei (commits / arquivos / links):** _Comecei a estruturar o HEVY utilizando variáveis para representar as informações dos exercícios, como nome, grupo muscular, séries, repetições e carga. Também trabalhei com entradas e saídas de dados para permitir a interação do usuário com o sistema._
+3. **Objeto(s) de conhecimento mobilizado(s):** _Variáveis, tipos de dados (str, int e float), atribuição de valores, entrada de dados com input() e saída de informações com print()._
+4. **Desvio ou erro encontrado + causa técnica:** _Uma dificuldade foi compreender a diferença entre os tipos de dados e a necessidade de converter algumas entradas do usuário, já que o comando input() recebe os valores inicialmente como texto._
+5. **Decisão de ajuste + fonte:** _Procurei compreender melhor os tipos de dados, utilizando as explicações das aulas e os materias de estudo para organizar corretamente as informações do sistema._
+6. **Feedback recebido e o que mudei:** _Os conteúdos trabalhados em sala ajudaram a entender melhor como as variáveis armazenam informações e como os tipos de dados influenciam o funcionamento do programa._
+7. **Próximo passo:** _Aplicar os conhecimentos de variáveis e tipos de dados junto às estruturas de repetição e condicionais pra poder desenvolver as funcionaliades do CRUD._
 
 ## 🟢 CICLO 03 — 26/08 — Operadores, fluxogramas e paradigmas
 
@@ -269,13 +270,14 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 </details>
 
 #### Registro do Ciclo 03 — 26/08
-1. **Desafio do ciclo (em 1 frase):** _…_
-2. **O que implementei (commits / arquivos / links):** _…_
-3. **Objeto(s) de conhecimento mobilizado(s):** _…_
-4. **Desvio ou erro encontrado + causa técnica:** _…_
-5. **Decisão de ajuste + fonte:** _…_
-6. **Feedback recebido e o que mudei:** _…_
-7. **Próximo passo:** _…_
+1. **Desafio do ciclo (em 1 frase):** _Aprender a utilizar os operadores e entender melhor como organizar a lógica de um programa, para conseguir desenvolver o HEVY de maneira mais organizada._
+2. **O que implementei (commits / arquivos / links):** _Continuei trabalhando na lógica do HEVY, utilizando os conhecimentos de programação para organizar as opções do menu e entender como o sistema deve funcionar de acordo com cada escolha do usuário.
+_
+3. **Objeto(s) de conhecimento mobilizado(s):** _Operadores aritméticos, relacionais e lógicos, expressões booleanas, fluxogramas e lógica de programação._
+4. **Desvio ou erro encontrado + causa técnica:** _Tive um pouco de dificuldade para entender como os operadores funcionam juntos dentro de uma condição._
+5. **Decisão de ajuste + fonte:** _Procurei revisar os conteúdos apresentados em sala de aula e também ver videoaulas no YouTube pra entender melhor os exemplos práticos de operadores e fluxogramas. Isso me ajudou a visualizar melhor a lógica antes de aplicar no projeto._
+6. **Feedback recebido e o que mudei:** _As explicações do professor e os exemplos apresentados durante as aulas ajudaram no meu aprendizado. Também as videoaulas do YouTube me ajudou a entender os assuntos e esclarecer algumas dúvidas._
+7. **Próximo passo:** _Continuar desenvolvendo o HEVY e aplicar os conhecimentos de lógica e condições para fazer com que cada opção do menu funcione corretamente._
 
 ## 🟢 CICLO 04 — 02/09 — Estruturas condicionais: `if`, `elif`, `else`
 
@@ -290,13 +292,17 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 </details>
 
 #### Registro do Ciclo 04 — 02/09
-1. **Desafio do ciclo (em 1 frase):** _…_
-2. **O que implementei (commits / arquivos / links):** _…_
-3. **Objeto(s) de conhecimento mobilizado(s):** _…_
-4. **Desvio ou erro encontrado + causa técnica:** _…_
-5. **Decisão de ajuste + fonte:** _…_
-6. **Feedback recebido e o que mudei:** _…_
-7. **Próximo passo:** _…_
+1. **Desafio do ciclo (em 1 frase):** _Entender como utilizar as estruturas condicionais para fazer o programa tomar decisões e executar diferentes ações dependendo da opção escolhida pelo usuário.
+_
+2. **O que implementei (commits / arquivos / links):** _Trabalhei na organização do menu do HEVY, utilizando as condições para direcionar o funcionamento do sistema. A ideia é que, ao escolher uma opção, como cadastrar, listar, atualizar ou excluir, o programa execute a ação correspondente._
+3. **Objeto(s) de conhecimento mobilizado(s):** _Estruturas condicionais if, elif e else, operadores relacionais, expressões booleanas e controle de fluxo._
+4. **Desvio ou erro encontrado + causa técnica:** _
+Minha principal dificuldade foi compreender melhor como organizar as condições para que cada opção do menu fosse reconhecida corretamente. Também precisei prestar atenção na lógica das comparações para evitar que o programa executasse uma ação diferente da escolhida._
+5. **Decisão de ajuste + fonte:** _
+Revisei os exemplos trabalhados em sala de aula e procurei assistir a videoaulas no YouTube sobre estruturas condicionais em Python._
+6. **Feedback recebido e o que mudei:** _As explicações dadas em sala foram importantes para entender como as estruturas condicionais funcionam. Também utilizei videoaulas como material complementar.
+_
+7. **Próximo passo:** _Continuar aprimorando o HEVY, testar as opções do menu e verificar se as operações de cadastro, listagem, atualização e exclusão estão funcionando como esperado_
 
 ---
 
