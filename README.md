@@ -1,5 +1,5 @@
 # CRUD HEVY — Gerenciamento de Fichas de Treino
-
+#Professor: falta incluir no repositório os arquivos do programa (.py).
 Projeto desenvolvido em Python para a disciplina de Algoritmos e Programação e documentado para a disciplina de Gestão Ágil de Projetos.
 
 Objetivo: desenvolver um sistema de terminal inspirado no aplicativo HEVY para registrar e administrar informações de exercícios físicos, facilitando a organização das fichas de treino e o acompanhamento das atividades realizadas na academia.
