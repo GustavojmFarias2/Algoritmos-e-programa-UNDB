@@ -395,42 +395,44 @@ _
 *AV Qualis — Grupo 2 | Sábado 21/11, 23h59*
 
 **3a. O que descobri que mudou minha compreensão do problema (mínimo 2 achados, com objeto de conhecimento associado):**
-1. _…_ — *Objeto de conhecimento:* _…_
-2. _…_ — *Objeto de conhecimento:* _…_
+1.  — *Achado: Percebi que a validação dos dados é essencial para evitar que informações incorretas sejam armazenadas. Por exemplo, a quantidade de séries e repetições precisa ser um número inteiro positivo, enquanto a carga não pode ser negativa.
+Objeto de conhecimento: Tipos de dados, validação de entrada e estruturas condicionais.--* _…_
+2.  — *Achado: Compreendi que a escolha da estrutura de dados influencia diretamente a capacidade do sistema. Utilizar variáveis individuais permite armazenar um exercício, mas listas e dicionários seriam mais adequados para organizar vários exercícios.
+Objeto de conhecimento: Estruturas de dados, listas e dicionários.* _…_
 3. _…_ *(opcional)*
 
 **3b. Desvio em relação ao Campo 02 (ao menos 1 — causa técnica):**
-- **Desvio:** _…_
-- **Causa técnica:** _…_
+- **Desvio:** _Durante o desenvolvimento, percebi que a estrutura atual do HEVY não permite trabalhar com vários exercícios ao mesmo tempo, mesmo que essa seja uma possibilidade de evolução planejada._
+- **Causa técnica:** _O sistema foi construído utilizando variáveis individuais para armazenar os dados de um único exercício. Para armazenar vários registros, seria necessário utilizar estruturas de dados, como listas e dicionários._
 
 **3c. Decisão de ajuste (ao menos 1) com justificativa e fonte:**
-- **Decisão:** _…_
-- **Fonte:** _…_
+- **Decisão:** _Manter a organização atual das operações de cadastro, listagem, atualização e exclusão, reforçando as validações das informações inseridas pelo usuário. Também identifiquei a utilização de listas e dicionários como uma melhoria futura para permitir o armazenamento de vários exercícios._
+- **Fonte:** _Conteúdos trabalhados nas aulas de Algoritmos e Programação, exercícios práticos e alguns videos aula no Youtube._
 
-**Objeto de conhecimento mobilizado nesta decisão:** _…_
+**Objeto de conhecimento mobilizado nesta decisão:**  Variáveis, tipos de dados, estruturas condicionais, validação de entrada e estruturas de dados._
 
 ### 🧩 CAMPO 04 — Interação com IA
 *AV Qualis — Grupo 2 | Sábado 21/11, 23h59 | OBRIGATÓRIO*
 
 > **Obrigatório e avaliado. Print sem análise crítica = devolução imediata. Reproduzir a IA sem questionamento = reprovado.**
 
-**4a. Ferramenta:** _…_  **Data:** _DD/MM/AAAA_
+**4a. Ferramenta:** _…ChatGPT e Gemini_  **Data:** _20/11/2026_
 
 **4b. Pergunta formulada (transcrita integralmente):**
 
-> _…_
+> _Estou desenvolvendo um sistema chamado HEVY em Python para gerenciar exercícios físicos. O sistema possui as opções de cadastrar, listar, atualizar e excluir exercícios, utilizando variáveis para armazenar nome, grupo muscular, séries, repetições e carga. Também utilizo input(), print(), while, if, elif e else. Gostaria que você analisasse essa estrutura e explicasse quais possíveis limitações existem no meu código, principalmente em relação à validação dos dados, ao armazenamento das informações e à possibilidade de cadastrar vários exercícios. Quais melhorias seriam adequadas considerando os conteúdos de lógica de programação que estou estudando?_
 
 **4c. Resposta da IA (resumida em parágrafo):**
 
-> _…_
+> _A análise mostrou que o HEVY utiliza corretamente conceitos importantes de lógica de programação, como variáveis, tipos de dados, estruturas condicionais e laços de repetição. Entretanto, a utilização de variáveis individuais limita o sistema ao armazenamento de um exercício por vez. Para permitir vários cadastros, seria interessante utilizar listas e dicionários. Também foi destacada a importância da validação das entradas, evitando valores incorretos, como séries e repetições negativas ou carga abaixo de zero. Outra limitação é que os dados não ficam salvos permanentemente após o encerramento do programa._
 
 **4d. O que aceitei — com referência ao objeto de conhecimento do componente:**
 
-> _…_
+> _Aceitei a análise sobre a importância da validação das informações e sobre as limitações do armazenamento por meio de variáveis individuais. Compreendi que listas e dicionários poderiam melhorar a organização dos exercícios, permitindo vários registros. Essa orientação está relacionada aos objetos de conhecimento de estruturas de dados, tipos de dados, estruturas condicionais e validação de entrada. Considero essas melhorias importantes para uma futura evolução do HEVY._
 
 **4e. O que questionei ou descartei — com argumento técnico ou fonte:**
 
-> _…_
+> _Questionei a possibilidade de considerar listas e dicionários como recursos já implementados no meu sistema. Apesar de serem melhorias recomendadas, meu código atual ainda utiliza variáveis individuais e não possui essas estruturas. Por isso, não registrei esses recursos como funcionalidades existentes. Também considerei que implementar um banco de dados seria um avanço maior, que exigiria novos conhecimentos. Durante a apresentação do projeto, consegui explicar sua proposta e suas principais funcionalidades, mas senti um pouco de nervosismo, o que dificultou minha apresentação em alguns momentos. Considero a experiência positiva, pois consegui apresentar o que desenvolvi e identificar pontos que posso melhorar "como no erro do slide" e na minha comunicação._
 
 ## 🟠 CICLO 05 — 09/09 — Condicionais aninhadas e operadores lógicos
 
