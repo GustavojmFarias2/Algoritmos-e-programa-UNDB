@@ -314,10 +314,10 @@ _
 
 **Checklist do Grupo 2**
 - [ ] Checkpoint Conceitual feito conforme orientação do professor (20 min, sem consulta)
-- [ ] Campo 03: 2 achados com objeto, 1 desvio com causa técnica, 1 decisão com fonte
-- [ ] Campo 04: ferramenta, pergunta íntegra, resumo, o que aceitei e o que questionei
-- [ ] Registros dos Ciclos 05, 06, 07 e 08 com os 7 itens (devolutiva da P1 no ciclo 06)
-- [ ] Commits no GitHub e painel atualizado
+- [✅] Campo 03: 2 achados com objeto, 1 desvio com causa técnica, 1 decisão com fonte
+- [✅] Campo 04: ferramenta, pergunta íntegra, resumo, o que aceitei e o que questionei
+- [✅] Registros dos Ciclos 05, 06, 07 e 08 com os 7 itens (devolutiva da P1 no ciclo 06)
+- [✅] Commits no GitHub e painel atualizado
 
 ## 🟠 CICLO 03 (campos) — 26/08 — Checkpoint, Campo 03 e Campo 04
 
@@ -447,13 +447,13 @@ Objeto de conhecimento: Estruturas de dados, listas e dicionários.* _…_
 </details>
 
 #### Registro do Ciclo 05 — 09/09
-1. **Desafio do ciclo (em 1 frase):** _…_
-2. **O que implementei (commits / arquivos / links):** _…_
-3. **Objeto(s) de conhecimento mobilizado(s):** _…_
-4. **Desvio ou erro encontrado + causa técnica:** _…_
-5. **Decisão de ajuste + fonte:** _…_
-6. **Feedback recebido e o que mudei:** _…_
-7. **Próximo passo:** _…_
+1. **Desafio do ciclo (em 1 frase):** _Compreender como utilizar condicionais aninhadas e operadores lógicos para validar informações e controlar as opções do sistema HEVY._
+2. **O que implementei (commits / arquivos / links):** _Trabalhei na lógica do sistema, utilizando estruturas condicionais para verificar as informações digitadas pelo usuário e identificar a opção escolhida no menu._
+3. **Objeto(s) de conhecimento mobilizado(s):** _Estruturas condicionais aninhadas, operadores lógicos (or), operadores relacionais e expressões booleanas._
+4. **Desvio ou erro encontrado + causa técnica:** _Uma dificuldade foi compreender como combinar mais de uma condição sem deixar a lógica confusa. Isso exige atenção à ordem das verificações e aos resultados das expressões booleanas._
+5. **Decisão de ajuste + fonte:** _Organizei as verificações por etapas, utilizando condições específicas para cada situação. Usei como apoio as explicações das aulas e exercícios de lógica de programação._
+6. **Feedback recebido e o que mudei:** _As atividades ajudaram a compreender melhor a importância de organizar as condições antes de executar uma ação. Percebi que precisava ter mais atenção à lógica de cada verificação._
+7. **Próximo passo:** _Aprofundar o uso de estruturas condicionais e começar a trabalhar com laços de repetição._
 
 ## 🟠 CICLO 06 — 30/09 — Devolutiva da P1 + repetição: `for`, `while`, `break`, `continue`
 
@@ -467,13 +467,13 @@ Objeto de conhecimento: Estruturas de dados, listas e dicionários.* _…_
 </details>
 
 #### Registro do Ciclo 06 — 30/09
-1. **Desafio do ciclo (em 1 frase):** _…_
-2. **O que implementei (commits / arquivos / links):** _…_
-3. **Objeto(s) de conhecimento mobilizado(s):** _…_
-4. **Desvio ou erro encontrado + causa técnica:** _…_
-5. **Decisão de ajuste + fonte:** _…_
-6. **Feedback recebido (inclui devolutiva da P1) e o que mudei:** _…_
-7. **Próximo passo:** _…_
+1. **Desafio do ciclo (em 1 frase):** _Entender como os laços de repetição funcionam e como podem ser utilizados para manter o menu do HEVY em funcionamento._
+2. **O que implementei (commits / arquivos / links):** _Utilizei o laço while para permitir que o menu principal continue aparecendo enquanto o usuário não escolher a opção de sair._
+3. **Objeto(s) de conhecimento mobilizado(s):** _Laços de repetição, principalmente while, condições de parada, estruturas condicionais e controle de fluxo._
+4. **Desvio ou erro encontrado + causa técnica:** _Uma dificuldade foi compreender a importância da condição de parada do laço. Caso ela não seja atualizada corretamente, o programa pode continuar repetindo o menu sem parar._
+5. **Decisão de ajuste + fonte:** _Utilizei a opção escolhida pelo usuário como condição de controle do while, fazendo com que a repetição termine quando a opção de saída for selecionada. Usei como referência as explicações das aulas e os exercícios de programação._
+6. **Feedback recebido (inclui devolutiva da P1) e o que mudei:** _devolutiva da P1 e os estudos do conteúdo reforçaram a importância de compreender a lógica por trás do código, e não apenas copiar comandos. Percebi que precisava revisar melhor as condições e a organização das estruturas de repetição._
+7. **Próximo passo:** _Estudar listas e entender como armazenar mais de um registro no sistema._
 
 ## 🟠 CICLO 07 — 07/10 — Listas: armazenamento e iteração
 
@@ -487,13 +487,13 @@ Objeto de conhecimento: Estruturas de dados, listas e dicionários.* _…_
 </details>
 
 #### Registro do Ciclo 07 — 07/10
-1. **Desafio do ciclo (em 1 frase):** _…_
-2. **O que implementei (commits / arquivos / links):** _…_
-3. **Objeto(s) de conhecimento mobilizado(s):** _…_
-4. **Desvio ou erro encontrado + causa técnica:** _…_
-5. **Decisão de ajuste + fonte:** _…_
-6. **Feedback recebido e o que mudei:** _…_
-7. **Próximo passo:** _…_
+1. **Desafio do ciclo (em 1 frase):** _Compreender como as listas podem ser utilizadas para armazenar vários registros e facilitar a organização das informações._
+2. **O que implementei (commits / arquivos / links):** _Estudei o funcionamento das listas e suas possibilidades de utilização em sistemas que precisam armazenar vários dados. No HEVY atual, ainda utilizo variáveis individuais para guardar as informações de um exercício._
+3. **Objeto(s) de conhecimento mobilizado(s):** _Listas, índices, elementos, armazenamento de dados, iteração e operações de inclusão e remoção._
+4. **Desvio ou erro encontrado + causa técnica:** _Identifiquei que a estrutura atual do HEVY possui uma limitação: ela não permite armazenar vários exercícios simultaneamente. Isso acontece porque os dados são guardados em variáveis individuais, e não em uma estrutura de dados como uma lista._
+5. **Decisão de ajuste + fonte:** _Considerei que a utilização de listas seria uma evolução adequada para o projeto, pois permitiria armazenar vários exercícios e percorrer seus registros. Utilizei como apoio o conteúdo apresentado em aula e os exercícios sobre listas._
+6. **Feedback recebido e o que mudei:** _O conteúdo ajudou a perceber que a escolha da estrutura de dados influencia diretamente as possibilidades de um sistema. Passei a compreender melhor a diferença entre guardar apenas um registro e organizar vários registros._
+7. **Próximo passo:** _Estudar como organizar os dados utilizando dicionários e como realizar buscas por informações específicas._
 
 ## 🟠 CICLO 08 — 14/10 — Busca/consulta e introdução a dicionários e matrizes
 
@@ -508,13 +508,13 @@ Objeto de conhecimento: Estruturas de dados, listas e dicionários.* _…_
 </details>
 
 #### Registro do Ciclo 08 — 14/10
-1. **Desafio do ciclo (em 1 frase):** _…_
-2. **O que implementei (commits / arquivos / links):** _…_
-3. **Objeto(s) de conhecimento mobilizado(s):** _…_
-4. **Desvio ou erro encontrado + causa técnica:** _…_
-5. **Decisão de ajuste + fonte:** _…_
-6. **Feedback recebido e o que mudei:** _…_
-7. **Próximo passo:** _…_
+1. **Desafio do ciclo (em 1 frase):** _Compreender como realizar buscas e organizar informações utilizando estruturas como dicionários e matrizes._
+2. **O que implementei (commits / arquivos / links):** _Estudei como os dicionários organizam informações por meio de pares de chave e valor. No HEVY atual, os dados ainda são armazenados em variáveis individuais, mas compreendi como os dicionários poderiam organizar os dados de cada exercício._
+3. **Objeto(s) de conhecimento mobilizado(s):** _Busca de dados, dicionários, pares chave-valor, estruturas de dados e matrizes._
+4. **Desvio ou erro encontrado + causa técnica:** _Uma limitação identificada foi a ausência de uma estrutura que permita pesquisar diferentes exercícios pelo nome ou por outras informações. Isso ocorre porque o sistema ainda trabalha com apenas um conjunto de variáveis._
+5. **Decisão de ajuste + fonte:** _Identifiquei que os dicionários poderiam representar cada exercício, associando informações como nome, grupo muscular, séries, repetições e carga. As listas poderiam armazenar vários desses registros. Usei como referência as explicações das aulas e os estudos sobre estruturas de dados._
+6. **Feedback recebido e o que mudei:** _Consegui compreender melhor como diferentes estruturas de dados podem facilitar a organização e a consulta de informações. Também percebi que o projeto pode evoluir bastante com a utilização desses recursos._
+7. **Próximo passo:** _Revisar os conteúdos de estruturas de dados e compreender como aplicá-los em uma futura evolução do HEVY._
 
 ---
 
