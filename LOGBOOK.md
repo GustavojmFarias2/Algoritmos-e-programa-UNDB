@@ -110,14 +110,14 @@ Atualize a cada commit (troque ⬜ por ✅).
 | 1 | Registros dos Ciclos 01, 02, 03 e 04 | 16/11 | ✅ | ✅ |
 | 1 | Campo 01 — Instrumento de entrada | 16/11 | ✅ | ✅ |
 | 1 | Campo 02 — Aprofundamento | 16/11 | ✅ | ✅ |
-| 2 | Registros dos Ciclos 05, 06, 07 e 08 | 21/11 | ⬜ | ⬜ |
-| 2 | Checkpoint Conceitual | 21/11 | ⬜ | ⬜ |
-| 2 | Campo 03 — Execução e desvios | 21/11 | ⬜ | ⬜ |
-| 2 | Campo 04 — Interação com IA | 21/11 | ⬜ | ⬜ |
-| 3 | Registros dos Ciclos 09, 10, 11 e 12 | 26/11 | ⬜ | ⬜ |
-| 3 | Campo 05 — Revisão por pares nº 1 e nº 2 | 26/11 | ⬜ | ⬜ |
-| 3 | Campo 06 — Próximos passos | 26/11 | ⬜ | ⬜ |
-| 3 | Campo 07 — Evolução conceitual | 26/11 | ⬜ | ⬜ |
+| 2 | Registros dos Ciclos 05, 06, 07 e 08 | 21/11 | ✅ | ✅ |
+| 2 | Checkpoint Conceitual | 21/11 | ✅ | ✅ |
+| 2 | Campo 03 — Execução e desvios | 21/11 | ✅ | ✅ |
+| 2 | Campo 04 — Interação com IA | 21/11 | ✅ | ✅ |
+| 3 | Registros dos Ciclos 09, 10, 11 e 12 | 26/11 | ✅ | ✅ |
+| 3 | Campo 05 — Revisão por pares nº 1 e nº 2 | 26/11 | ✅ | ✅ |
+| 3 | Campo 06 — Próximos passos | 26/11 | ✅ | ✅ |
+| 3 | Campo 07 — Evolução conceitual | 26/11 | ✅ | ✅ |
 | 🏁 | Defesa Técnica | 18/11 | ⬜ | — |
 
 ---
@@ -525,12 +525,12 @@ Objeto de conhecimento: Estruturas de dados, listas e dicionários.* _…_
 > ⚠️ O prazo vem **um dia depois da P2 (25/11)**. Os Campos 06 e 07 dependem de todo o Logbook: deixe-os para o final, mas **adiante o rascunho do 6c e do 7a/7b antes da Defesa (18/11)**.
 
 **Checklist do Grupo 3**
-- [ ] Registros dos Ciclos 09, 10, 11 e 12 com os 7 itens
-- [ ] Campo 05: duas revisões (Ciclos 09 e 12), blocos 5a a 5e
-- [ ] Campo 06: decisão autônoma, lacuna com plano, pergunta da banca com 5 linhas ou mais
-- [ ] Campo 07: 7a a 7e, com 3 objetos, 2 equívocos corrigidos e transferência
-- [ ] Coerência entre Campo 01 e Campo 07
-- [ ] Painel de acompanhamento completo
+- [✅] Registros dos Ciclos 09, 10, 11 e 12 com os 7 itens
+- [✅] Campo 05: duas revisões (Ciclos 09 e 12), blocos 5a a 5e
+- [✅] Campo 06: decisão autônoma, lacuna com plano, pergunta da banca com 5 linhas ou mais
+- [✅] Campo 07: 7a a 7e, com 3 objetos, 2 equívocos corrigidos e transferência
+- [✅] Coerência entre Campo 01 e Campo 07
+- [✅] Painel de acompanhamento completo
 
 ## 🔵 CICLO 09 — 21/10 — Atualização e exclusão: CRUD completo
 
@@ -551,13 +551,13 @@ Objeto de conhecimento: Estruturas de dados, listas e dicionários.* _…_
 </details>
 
 #### Registro do Ciclo 09 — 21/10
-1. **Desafio do ciclo (em 1 frase):** _…_
-2. **O que implementei (commits / arquivos / links):** _…_
-3. **Objeto(s) de conhecimento mobilizado(s):** _…_
-4. **Desvio ou erro encontrado + causa técnica:** _…_
-5. **Decisão de ajuste + fonte:** _…_
-6. **Feedback recebido e o que mudei:** _…_
-7. **Próximo passo:** _…_
+1. **Desafio do ciclo (em 1 frase):** _Compreender melhor como funcionam as operações de atualização e exclusão de dados e como elas se relacionam com as demais operações do CRUD._
+2. **O que implementei (commits / arquivos / links):** _Trabalhei na lógica das operações do HEVY, principalmente na atualização das informações de um exercício já cadastrado e na exclusão dos dados. O sistema utiliza a variável cadastrado para verificar se existe um exercício registrado antes de permitir determinadas operações._
+3. **Objeto(s) de conhecimento mobilizado(s):** _Operações CRUD (Create, Read, Update e Delete), estruturas condicionais, variáveis, tipos de dados e validação de informações._
+4. **Desvio ou erro encontrado + causa técnica:** _Uma dificuldade foi compreender como impedir que o usuário tente atualizar ou excluir um exercício que ainda não foi cadastrado. Isso poderia causar inconsistências na lógica do programa caso não houvesse uma verificação anterior._
+5. **Decisão de ajuste + fonte:** _Utilizei uma variável booleana chamada cadastrado para controlar a existência de um registro. Dessa forma, o programa consegue verificar se deve permitir a atualização ou exclusão. Como referência, utilizei as explicações das aulas e a documentação oficial do Python sobre estruturas condicionais._
+6. **Feedback recebido e o que mudei:** _As atividades ajudaram a compreender que cada operação do CRUD precisa ter uma condição adequada para funcionar corretamente. Passei a prestar mais atenção na sequência das verificações e na situação dos dados antes de executar uma operação._
+7. **Próximo passo:** _Estudar como organizar melhor o código utilizando funções e compreender como separar as responsabilidades de cada operação do sistema._
 
 ### 🧩 CAMPO 05 — Registro de Revisão por Pares
 *Adaptação do **Logbook do Time** (Apêndice C) para o CRUD individual. Documento atualizado pelo **revisor**. Cada decisão técnica relevante deve ter associado o objeto de conhecimento correspondente.*
@@ -570,9 +570,9 @@ Objeto de conhecimento: Estruturas de dados, listas e dicionários.* _…_
 
 | | |
 |---|---|
-| **Autor do CRUD revisado** | _nome_ |
-| **Repositório revisado** | _link_ |
-| **Revisor** | _seu nome_ |
+| **Autor do CRUD revisado** | _Filipe Gabriel Silva Melo Pereira_ |
+| **Repositório revisado** | _https://github.com/filipegabrielsilvamp/atividade-eng-software_ |
+| **Revisor** | _Gustavo de Jesus Magalhães Farias_ |
 | **Unidade curricular / Semestre** | Algoritmos e Programação · 2026.2 |
 | **Ciclo / data** | _Ciclo 09 · 21/10_ |
 
@@ -580,37 +580,37 @@ Objeto de conhecimento: Estruturas de dados, listas e dicionários.* _…_
 
 | ETAPA DO PROCESSO | RESPONSÁVEL | PRAZO | STATUS | DESVIO / JUSTIFICATIVA |
 |---|---|---|---|---|
-| 1. _…_ | Revisor / Autor | _DD/MM_ | ☐ Concluída ☐ Em andamento ☐ Com desvio | _…_ |
-| 2. _…_ | Revisor / Autor | _DD/MM_ | ☐ Concluída ☐ Em andamento ☐ Com desvio | _…_ |
-| 3. _…_ | Revisor / Autor | _DD/MM_ | ☐ Concluída ☐ Em andamento ☐ Com desvio | _…_ |
-| 4. _…_ | Revisor / Autor | _DD/MM_ | ☐ Concluída ☐ Em andamento ☐ Com desvio | _…_ |
-| 5. _…_ | Revisor / Autor | _DD/MM_ | ☐ Concluída ☐ Em andamento ☐ Com desvio | _…_ |
+| 1. _Analisar o código-fonte_ | Revisor | _21/11_ | ☐ Concluída  | _Código analisado pelo GitHub_ |
+| 2. _Verificar cadastro e listagem_ | Revisor | _21/11_ | ☐ Concluída  | _Identificadas lista e funções_ |
+| 3. _Verificar atualização e exclusão_ | Revisor | _21/11_ | ☐ Concluída  | _Operações presentes no código_ |
+| 4. _Conferir validações_ | Revisor | _21/11_ | ☐ Concluída  | _Regras de negócio identificadas_ |
+| 5. _Registrar feedback_ | Revisor | _21/11_ | ☐ Concluída  | _Pontos positivos e melhoria identificados_ |
 
 **5b. ANÁLISE DE INSUMOS E CRITÉRIOS DE QUALIDADE:**
 
 | RECURSO | QTDE PLANEJADA | QTDE UTILIZADA | VARIAÇÃO | JUSTIFICATIVA TÉCNICA |
 |---|---|---|---|---|
-| _…_ | _…_ | _…_ | _…_ | _…_ |
-| _…_ | _…_ | _…_ | _…_ | _…_ |
-| _…_ | _…_ | _…_ | _…_ | _…_ |
+| _Código-fonte_ | _1_ | _1_ | _0_ | _Análise do programa_ |
+| _Casos de teste_ | _5_ | _0_ | _-5_ | _Não foram executados_ |
+| _Requisitos do projeto_ | _1_ | _1_ | _0_ | _Comparação das funcionalidades_ |
 
 **5c. CONTROLE DE QUALIDADE:**
-- **Critério ou norma técnica:** _…_
-- **A solução atende?** ☐ Sim ☐ Parcialmente ☐ Não
+- **Critério ou norma técnica:** _funcionamento das quatro operações CRUD e validação dos dados._
+- **A solução atende?** ☐ Parcialmente
 
 **5d. GESTÃO DE RISCOS:**
-- **Risco:** _…_
-- **Estratégia de mitigação:** _…_
+- **Risco:** _entradas não numéricas em campos convertidos para int ou float podem gerar erros._
+- **Estratégia de mitigação:** _recomendar tratamento de exceções e testes com entradas inválidas._
 
 **5e. RASTREABILIDADE DAS DECISÕES TÉCNICAS — COM VÍNCULO AO CONTEÚDO:**
 
 | DATA | DECISÃO TÉCNICA | RESP. | OBJETO DE CONHECIMENTO MOBILIZADO | FUNDAMENTAÇÃO / REFERÊNCIA |
 |---|---|---|---|---|
-| _DD/MM/AA_ | _…_ | _…_ | _…_ | _…_ |
-| _DD/MM/AA_ | _…_ | _…_ | _…_ | _…_ |
-| _DD/MM/AA_ | _…_ | _…_ | _…_ | _…_ |
-| _DD/MM/AA_ | _…_ | _…_ | _…_ | _…_ |
-| _DD/MM/AA_ | _…_ | _…_ | _…_ | _…_ |
+| _21/11/26_ | _Verificar o uso de listas_ | _Revisor_ | _Listas_ | _Código tarefas_ |
+| _21/11/26_ | _Analisar a organização dos registros_ | _Revisor_ | _Dicionarios_ | _Dados organizados por chaves_ |
+| _21/11/26_ | _Conferir as operações_ | _Revisor_ | _CRUD e funções_ | _cadastrar, listar, atualizar, remover_ |
+| _21/11/26_ | _Avaliar as validações_ | _Revisor_ | _Condicionais_ | _Regras de negócio_ |
+| _21/11/26_ | _Identificar riscos nas entradas_ | _Revisor_ | _Tipos de dados_ | _Conversões int e float_ |
 
 > **IMPORTANTE:** Decisão registrada sem objeto de conhecimento associado e sem referência é considerada **não rastreável** e não conta para a avaliação formativa. O vínculo entre processo e conteúdo é obrigatório em todas as decisões relevantes.
 
@@ -626,13 +626,13 @@ Objeto de conhecimento: Estruturas de dados, listas e dicionários.* _…_
 </details>
 
 #### Registro do Ciclo 10 — 28/10
-1. **Desafio do ciclo (em 1 frase):** _…_
-2. **O que implementei (commits / arquivos / links):** _…_
-3. **Objeto(s) de conhecimento mobilizado(s):** _…_
-4. **Desvio ou erro encontrado + causa técnica:** _…_
-5. **Decisão de ajuste + fonte:** _…_
-6. **Feedback recebido e o que mudei:** _…_
-7. **Próximo passo:** _…_
+1. **Desafio do ciclo (em 1 frase):** _Compreender como a modularização pode facilitar a organização e a manutenção de um programa._
+2. **O que implementei (commits / arquivos / links):** _Estudei como dividir um programa em funções menores, como cadastrar(), listar(), atualizar() e excluir(). No HEVY atual, as operações ainda estão organizadas diretamente no fluxo principal do programa, mas compreendi como a separação em funções poderia deixar o código mais organizado._
+3. **Objeto(s) de conhecimento mobilizado(s):** _Funções, parâmetros, argumentos, retorno de valores (return) e escopo de variáveis._
+4. **Desvio ou erro encontrado + causa técnica:** _Uma dificuldade foi compreender como as variáveis utilizadas dentro de uma função podem ter um escopo diferente das variáveis do programa principal. Também percebi que uma função precisa receber os dados necessários ou retornar um resultado quando isso for necessário._
+5. **Decisão de ajuste + fonte:** _Identifiquei que separar as operações do HEVY em funções seria uma boa melhoria, pois cada função poderia ficar responsável por uma tarefa específica. Essa organização reduziria a repetição de código e facilitaria futuras alterações. Utilizei como referência as explicações das aulas e a documentação oficial do Python sobre definição de funções._
+6. **Feedback recebido e o que mudei:** _O estudo desse conteúdo me ajudou a perceber que um código não precisa estar concentrado em um único bloco para funcionar. Passei a valorizar mais a organização e a divisão das responsabilidades, pensando também na facilidade de compreender o programa futuramente._
+7. **Próximo passo:** _Aprofundar o uso de funções, principalmente parâmetros, retorno de valores e escopo de variáveis, para conseguir aplicar esses conceitos em uma futura melhoria do HEVY._
 
 ## 🔵 CICLO 11 — 04/11 — Recursividade
 
@@ -648,35 +648,39 @@ Objeto de conhecimento: Estruturas de dados, listas e dicionários.* _…_
 </details>
 
 #### Registro do Ciclo 11 — 04/11
-1. **Desafio do ciclo (em 1 frase):** _…_
-2. **O que implementei (commits / arquivos / links):** _…_
-3. **Objeto(s) de conhecimento mobilizado(s):** _…_
-4. **Desvio ou erro encontrado + causa técnica:** _…_
-5. **Decisão de ajuste + fonte:** _…_
-6. **Feedback recebido e o que mudei:** _…_
-7. **Próximo passo:** _…_
+1. **Desafio do ciclo (em 1 frase):** _Compreender como funciona a recursividade e identificar em quais situações ela pode ser utilizada na programação._
+2. **O que implementei (commits / arquivos / links):** _Estudei a lógica da recursividade, observando como uma função pode chamar a si mesma para resolver um problema em etapas menores. Também compreendi a importância de definir uma condição de parada para evitar chamadas infinitas. Esse recurso não foi implementado no HEVY atual._
+3. **Objeto(s) de conhecimento mobilizado(s):** _Recursividade, caso base, chamada recursiva e pilha de execução._
+4. **Desvio ou erro encontrado + causa técnica:** _Minha principal dificuldade foi compreender como uma função consegue chamar a si mesma e como o programa controla essas chamadas. Sem um caso base adequado, a função pode continuar sendo executada até atingir o limite da pilha de execução._
+5. **Decisão de ajuste + fonte:** _Passei a analisar a recursividade separando o problema em duas partes: o caso base, que determina quando a execução termina, e a chamada recursiva, que reduz o problema até alcançar essa condição. Utilizei como apoio as explicações das aulas e a documentação oficial do Python._
+6. **Feedback recebido e o que mudei:** _O conteúdo me ajudou a perceber que existem diferentes maneiras de resolver um problema, e que nem toda solução depende apenas de laços de repetição. Também entendi que a recursividade precisa ser utilizada com cuidado, principalmente em relação à condição de parada._
+7. **Próximo passo:** _Continuar praticando funções recursivas com exemplos simples e compreender melhor a relação entre chamadas de funções e pilha de execução._
 
 ### 🧩 CAMPO 06 — Próximos passos para a defesa
 *AV Qualis — Grupo 3 | Individual | Quinta 26/11, 23h59*
 
 **6a. Decisão técnica que defendo com plena autonomia — o que aprendi que é exclusivamente meu e não consigo transferir para nenhum colega:**
 
-> _…_
+> _Uma decisão técnica é no meu projeto HEVY foi utilizar a variável booleana cadastrado para controlar se existe um exercício registrado. Escolhi essa lógica porque, antes de atualizar ou excluir um exercício, o programa precisa verificar se ele realmente foi cadastrado. Quando existe um registro, a variável recebe True; quando ele é excluído, recebe False. Assim, consigo utilizar as estruturas condicionais para controlar melhor as operações e evitar ações desnecessárias. Essa foi uma decisão que compreendi durante o desenvolvimento e consigo explicar utilizando meu próprio código._
 
 **6b. Lacuna técnica e plano de ação para saná-la:**
 
-- **Lacuna:** _…_
-- **Plano de ação (passos e datas):** _…_
+- **Lacuna:** _Ainda tenho dificuldade em compreender e aplicar algumas estruturas de dados, principalmente listas e dicionários, além de precisar praticar mais a utilização de funções e a recursividade._
+- **Plano de ação (passos e datas):** _Etapa	Atividade	Data
+1	Revisar listas e dicionários com exemplos práticos	27/11
+2	Praticar funções, parâmetros e retorno de valores	28/11
+3	Resolver exercícios básicos de recursividade	30/11
+4	Revisar os conteúdos e pensar em melhorias para o HEVY	02/12_
 
 **6c. Pergunta que a banca pode fazer — com resposta fundamentada (mínimo 5 linhas):**
 
-- **Pergunta:** _…_
+- **Pergunta:** _Se você tivesse que evoluir o HEVY para permitir o cadastro de vários exercícios, quais mudanças faria na estrutura atual do programa e por quê?_
 - **Resposta:**
 
-> _…_
+> _Atualmente, meu sistema utiliza variáveis individuais para armazenar as informações de um exercício. Para permitir vários cadastros, eu utilizaria uma lista para armazenar diferentes exercícios e dicionários para organizar as informações de cada um. Cada dicionário poderia conter o nome, grupo muscular, séries, repetições e carga. Também utilizaria funções para separar as operações de cadastro, listagem, atualização e exclusão. Dessa forma, o código ficaria mais organizado e seria possível trabalhar com vários registros sem precisar criar novas variáveis para cada exercício. Essa mudança está relacionada aos conteúdos de estruturas de dados e modularização que estudei durante a disciplina._
 
-**Objeto de conhecimento mobilizado:** _…_
-**Fonte:** _…_
+**Objeto de conhecimento mobilizado:** _Listas, dicionários, funções, modularização e operações CRUD._
+**Fonte:** _estruturas de dados e definição de funções do Youtube e aulas em sala._
 
 ## 🔵 CICLO 12 — 11/11 — Refatoração e qualidade de código
 
@@ -694,58 +698,58 @@ Objeto de conhecimento: Estruturas de dados, listas e dicionários.* _…_
 </details>
 
 #### Registro do Ciclo 12 — 11/11
-1. **Desafio do ciclo (em 1 frase):** _…_
-2. **O que implementei (commits / arquivos / links):** _…_
-3. **Objeto(s) de conhecimento mobilizado(s):** _…_
-4. **Desvio ou erro encontrado + causa técnica:** _…_
-5. **Decisão de ajuste + fonte:** _…_
-6. **Feedback recebido e o que mudei:** _…_
-7. **Próximo passo:** _…_
+1. **Desafio do ciclo (em 1 frase):** _Compreender como melhorar a qualidade do código por meio da refatoração, tornando sua estrutura mais clara, organizada e fácil de manter._
+2. **O que implementei (commits / arquivos / links):** _Revisei os conceitos utilizados no HEVY e identifiquei pontos que poderiam ser melhor organizados, como a repetição de trechos de código, a separação das operações e a clareza das condições. Também reconheci que a utilização de funções poderia facilitar a manutenção do sistema._
+3. **Objeto(s) de conhecimento mobilizado(s):** _Refatoração, legibilidade de código, modularização, boas práticas de programação e validação de dados._
+4. **Desvio ou erro encontrado + causa técnica:** _Percebi que algumas partes do programa possuem estruturas semelhantes, principalmente nas operações de cadastro e atualização. Essa repetição pode dificultar futuras alterações, pois uma mudança em uma regra pode exigir ajustes em mais de um trecho do código._
+5. **Decisão de ajuste + fonte:** _Identifiquei a necessidade de melhorar a organização do programa, utilizando nomes claros para as variáveis, condições bem definidas e, futuramente, funções para separar as operações. Considerei os conceitos apresentados nas aulas e as orientações da documentação oficial do Python sobre organização e estilo de código._
+6. **Feedback recebido e o que mudei:** _Ao longo dos estudos, percebi que não basta fazer o programa funcionar: também é importante conseguir entender e manter o código. Passei a observar melhor a clareza das instruções, a organização das condições e a possibilidade de evitar repetições desnecessárias._
+7. **Próximo passo:** _Continuar evoluindo o HEVY, estudando modularização e estruturas de dados para permitir o armazenamento de vários exercícios e melhorar a organização geral do sistema._
 
 ### 🧩 CAMPO 05 — Registro de Revisão por Pares (revisão nº 2)
 
 | | |
 |---|---|
-| **Autor do CRUD revisado** | _nome_ |
-| **Repositório revisado** | _link_ |
-| **Revisor** | _seu nome_ |
+| **Autor do CRUD revisado** | _Filipe Gabriel Silva Melo Pereira_ |
+| **Repositório revisado** | _https://github.com/filipegabrielsilvamp/atividade-eng-software_ |
+| **Revisor** | _	Gustavo de Jesus Magalhães Farias_ |
 | **Ciclo / data** | _Ciclo 12 · 11/11_ |
 
 **5a. AVANÇO DO PROCESSO DE REVISÃO:**
 
 | ETAPA DO PROCESSO | RESPONSÁVEL | PRAZO | STATUS | DESVIO / JUSTIFICATIVA |
 |---|---|---|---|---|
-| 1. _…_ | Revisor / Autor | _DD/MM_ | ☐ Concluída ☐ Em andamento ☐ Com desvio | _…_ |
-| 2. _…_ | Revisor / Autor | _DD/MM_ | ☐ Concluída ☐ Em andamento ☐ Com desvio | _…_ |
-| 3. _…_ | Revisor / Autor | _DD/MM_ | ☐ Concluída ☐ Em andamento ☐ Com desvio | _…_ |
-| 4. _…_ | Revisor / Autor | _DD/MM_ | ☐ Concluída ☐ Em andamento ☐ Com desvio | _…_ |
-| 5. _…_ | Revisor / Autor | _DD/MM_ | ☐ Concluída ☐ Em andamento ☐ Com desvio | _…_ |
+| 1. _Analisar organização do código_ | Revisor | _26/11_ | ☐ Concluída  | _Código separado em funções_ |
+| 2. _Verificar nomes e legibilidade_ | Revisor | _26/11_ | ☐ Concluída  | _Nomes descritivos_ |
+| 3. _Conferir validações_ | Revisor | _26/11_ | ☐ Concluída  | _Regras de entrada identificadas_ |
+| 4. _Identificar possíveis melhorias_ | Revisor | _26/11_ | ☐ Concluída  | _Tratamento de entradas numéricas_ |
+| 5. _Registrar feedback_ | Revisor | _26/11_ | ☐ Concluída  | _	Sugestões de melhoria registradas_ |
 
 **5b. ANÁLISE DE INSUMOS E CRITÉRIOS DE QUALIDADE:**
 
 | RECURSO | QTDE PLANEJADA | QTDE UTILIZADA | VARIAÇÃO | JUSTIFICATIVA TÉCNICA |
 |---|---|---|---|---|
-| _…_ | _…_ | _…_ | _…_ | _…_ |
-| _…_ | _…_ | _…_ | _…_ | _…_ |
-| _…_ | _…_ | _…_ | _…_ | _…_ |
+| _Código-fonte_ | _1	_ | _1_ | _0_ | _Análise da organização_ |
+| _Casos de teste_ | _8_ | _0_ | _-8_ | _Não foram executados_ |
+| _Critérios de qualidade_ | _1_ | 1…_ | _0_ | _Análise de legibilidade e validações_ |
 
 **5c. CONTROLE DE QUALIDADE:**
-- **Critério ou norma técnica:** _…_
-- **A solução atende?** ☐ Sim ☐ Parcialmente ☐ Não
+- **Critério ou norma técnica:** _organização, legibilidade, validação e consistência das operações._
+- **A solução atende?** ☐ Parcialmente
 
 **5d. GESTÃO DE RISCOS:**
-- **Risco:** _…_
-- **Estratégia de mitigação:** _…_
+- **Risco:** _erros durante a conversão de dados digitados pelo usuário._
+- **Estratégia de mitigação:** _utilizar tratamento de exceções e testar entradas vazias, inválidas e valores fora dos limites._
 
 **5e. RASTREABILIDADE DAS DECISÕES TÉCNICAS — COM VÍNCULO AO CONTEÚDO:**
 
 | DATA | DECISÃO TÉCNICA | RESP. | OBJETO DE CONHECIMENTO MOBILIZADO | FUNDAMENTAÇÃO / REFERÊNCIA |
 |---|---|---|---|---|
-| _DD/MM/AA_ | _…_ | _…_ | _…_ | _…_ |
-| _DD/MM/AA_ | _…_ | _…_ | _…_ | _…_ |
-| _DD/MM/AA_ | _…_ | _…_ | _…_ | _…_ |
-| _DD/MM/AA_ | _…_ | _…_ | _…_ | _…_ |
-| _DD/MM/AA_ | _…_ | _…_ | _…_ | _…_ |
+| _26/11/26_ | _Avaliar divisão das funcionalidades_ | _Revisor_ | _Modularização_ | _Funções independentes_ |
+| _26/11/26_ | _Verificar clareza dos nomes_ | _Revisor_ | _Legibilidade_ | _Boas práticas_ |
+| _26/11/26_ | _Conferir validações de entrada_ | _Revisor_ | _Condicionais_ | _Regras de negócio_ |
+| _26/11/26_ | _Identificar tratamento de erros_ | _Revisor_ | _Tipos de dados_ | _Conversões numéricas_ |
+| _26/11/26_ | _Recomendar melhorias_ | _Revisor_ | _Refatoração_ | _Qualidade do código_ |
 
 ### 🧩 CAMPO 07 — Evolução conceitual
 *AV Qualis — Grupo 3 | Individual | Quinta 26/11, 23h59*
@@ -754,30 +758,32 @@ Objeto de conhecimento: Estruturas de dados, listas e dicionários.* _…_
 
 **7a. O que eu pensava no início do ciclo (com base no Campo 01 — registrar a hipótese inicial e os objetos de conhecimento que achava conhecer):**
 
-> _…_
+> _No início da disciplina, eu já tinha uma noção básica de lógica de programação e acreditava que conseguiria desenvolver um sistema simples utilizando variáveis, entradas e saídas de dados e algumas condições. Porém, ainda não compreendia completamente como organizar um programa com várias operações e como utilizar estruturas de repetição e armazenamento de dados de forma mais eficiente. Durante o desenvolvimento do HEVY, fui percebendo que precisava aprofundar esses conhecimentos para conseguir construir um CRUD mais organizado e funcional._
 
 **7b. O que aprendi — conceitos, princípios ou relações técnicas que não dominava no início e que agora consigo explicar com precisão (mínimo 3 objetos de conhecimento):**
 
 | OBJETO DE CONHECIMENTO | O QUE EU NÃO DOMINAVA | O QUE APRENDI E CONSIGO DEMONSTRAR | EVIDÊNCIA (campo do Logbook onde aparece) |
 |---|---|---|---|
-| _…_ | _…_ | _…_ | _…_ |
-| _…_ | _…_ | _…_ | _…_ |
-| _…_ | _…_ | _…_ | _…_ |
+| _Estruturas condicionais_ | _Tinha dificuldade em entender como utilizar condições para controlar diferentes situações._ | _Aprendi a utilizar if, elif e else para verificar condições e controlar as operações do HEVY._ | _Ciclos 04 e 05; Campo 03_ |
+| _Estruturas de repetição_ | _Não compreendia totalmente como manter o programa funcionando sem repetir comandos manualmente._ | _Aprendi a utilizar while para manter o menu ativo até o usuário escolher sair._ | _Ciclo 06_ |
+| _Operações CRUD_ | _Tinha dificuldade em entender como organizar as etapas de cadastro, listagem, atualização e exclusão._ | _Consegui desenvolver essas operações no HEVY utilizando variáveis e condições para controlar os registros._ | _Ciclos 09 e 12_ |
 
 **7c. Conceitos que precisei corrigir ao longo do ciclo — onde eu estava equivocado e o que o corrigiu (Fechamento Teórico, pesquisa, Peer Review, arguição):**
 
-1. **Equívoco:** _…_ — **Correção:** _…_
-   **O que corrigiu:** _…_
-2. **Equívoco:** _…_ — **Correção:** _…_
-   **O que corrigiu:** _…_
+1. **Equívoco:** _Achava que as estruturas condicionais e de repetição tinham praticamente a mesma finalidade.
+2. _ — **Correção:** _Entendi que as condicionais permitem tomar decisões, enquanto as estruturas de repetição executam comandos várias vezes._
+   **O que corrigiu:** _As atividades práticas e os conteúdos estudados durante as aulas._
+3. **Equívoco:** _Pensava que utilizar variáveis individuais seria suficiente para armazenar vários registros em um sistema._
+— **Correção:** __Aprendi que listas e dicionários são estruturas mais adequadas para organizar e armazenar vários dados._
+   **O que corrigiu:** _As aulas sobre listas e dicionários e a análise do CRUD de um colega no Peer Review._
 
 **7d. Transferência — como este aprendizado se aplica a um contexto diferente do problema trabalhado (ao menos 1 exemplo concreto da área de formação):**
 
-> _…_
+> _Consigo aplicar esses conhecimentos em um sistema de controle financeiro pessoal. Seria possível cadastrar despesas, informar valores e categorias, listar os registros, atualizar informações e excluir lançamentos. Utilizaria variáveis, condicionais e estruturas de repetição para controlar o funcionamento do sistema. Com conhecimentos mais avançados, também poderia utilizar listas, dicionários e funções para organizar melhor os dados e as operações._
 
 **7e. Avaliação honesta do próprio percurso — o que ainda não domino e preciso aprofundar após este ciclo:**
 
-> _…_
+> _Considero que evoluí bastante durante a disciplina, principalmente na compreensão da lógica de programação e na capacidade de desenvolver um sistema utilizando os conteúdos estudados. Mesmo conseguindo construir o HEVY, ainda preciso praticar mais a utilização de listas, dicionários, funções e recursividade. Também quero melhorar a organização do código e ganhar mais segurança para explicar minhas decisões técnicas. Pretendo continuar praticando esses conteúdos para conseguir desenvolver projetos mais completos nos próximos módulos._
 
 ---
 
@@ -787,11 +793,11 @@ Objeto de conhecimento: Estruturas de dados, listas e dicionários.* _…_
 <summary>📘 Orientações para a Defesa Técnica e preparação</summary>
 
 **A Defesa é antes dos prazos dos Grupos 2 e 3.** Você será arguido sobre o que já estiver registrado e commitado. Priorize, até **terça 17/11**:
-- [ ] **Grupo 1 entregue** (prazo 16/11): Identificação, Registros 01 a 04, Campos 01 e 02.
-- [ ] **Campo 04 (IA)** e **Campo 03** ao menos em rascunho, para sustentar as perguntas sobre decisões (critérios 2 e 5).
-- [ ] **Campo 06c** (pergunta da banca e resposta) e **rascunho de 7a e 7b**, para sustentar a evolução conceitual (critério 3).
-- [ ] Registros dos Ciclos já feitos, mesmo que ainda não "entregues" no prazo do grupo.
-- [ ] `README.md`, `docs/` e CRUD rodando.
+- ✅] **Grupo 1 entregue** (prazo 16/11): Identificação, Registros 01 a 04, Campos 01 e 02.
+- [✅] **Campo 04 (IA)** e **Campo 03** ao menos em rascunho, para sustentar as perguntas sobre decisões (critérios 2 e 5).
+- ✅] **Campo 06c** (pergunta da banca e resposta) e **rascunho de 7a e 7b**, para sustentar a evolução conceitual (critério 3).
+- [✅] Registros dos Ciclos já feitos, mesmo que ainda não "entregues" no prazo do grupo.
+- [✅] `README.md`, `docs/` e CRUD rodando.
 - [ ] Você consegue explicar **cada linha** do seu código e **cada decisão** registrada.
 - Os demais itens seguem com os prazos dos grupos (21/11 e 26/11). A banca pode consultar o histórico do Git.
 
