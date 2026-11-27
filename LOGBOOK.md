@@ -118,7 +118,7 @@ Atualize a cada commit (troque ⬜ por ✅).
 | 3 | Campo 05 — Revisão por pares nº 1 e nº 2 | 26/11 | ✅ | ✅ |
 | 3 | Campo 06 — Próximos passos | 26/11 | ✅ | ✅ |
 | 3 | Campo 07 — Evolução conceitual | 26/11 | ✅ | ✅ |
-| 🏁 | Defesa Técnica | 18/11 | ⬜ | — |
+| 🏁 | Defesa Técnica | 18/11 | ✅ | — |
 
 ---
 
@@ -729,9 +729,9 @@ Objeto de conhecimento: Estruturas de dados, listas e dicionários.* _…_
 
 | RECURSO | QTDE PLANEJADA | QTDE UTILIZADA | VARIAÇÃO | JUSTIFICATIVA TÉCNICA |
 |---|---|---|---|---|
-| _Código-fonte_ | _1	_ | _1_ | _0_ | _Análise da organização_ |
+| _Código-fonte_ | _1_ | _1_ | _0_ | _Análise da organização_ |
 | _Casos de teste_ | _8_ | _0_ | _-8_ | _Não foram executados_ |
-| _Critérios de qualidade_ | _1_ | 1…_ | _0_ | _Análise de legibilidade e validações_ |
+| _Critérios de qualidade_ | _1_ | 1_ | _0_ | _Análise de legibilidade e validações_ |
 
 **5c. CONTROLE DE QUALIDADE:**
 - **Critério ou norma técnica:** _organização, legibilidade, validação e consistência das operações._
